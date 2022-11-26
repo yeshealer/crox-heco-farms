@@ -1,0 +1,13 @@
+.table_header tr th {
+    padding: 10px 15px;
+    background-color: #1D8CF8;
+}
+
+.table_body tr {
+    border-bottom: 1px solid #253253;
+}
+
+.table_body tr td {
+    padding: 10px 20px;
+    vertical-align: middle;
+}

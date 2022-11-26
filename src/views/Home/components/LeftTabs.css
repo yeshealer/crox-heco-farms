@@ -1,0 +1,305 @@
+.leftTab {
+    color: white !important;
+}
+
+.Mui-selected {
+    color: #2d74c4 !important;
+    background-color: #302a42 !important;
+}
+
+.MuiBox-root {
+    padding: 0 !important;
+    overflow: auto;
+}
+
+.headerCard {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerCard_yield {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.typography_text {
+    display: flex;
+}
+
+.cardContent {
+    padding: 5px 25px !important;
+    display: flex;
+    justify-content: center;
+}
+
+.cardbody {
+    margin: 10px 25px;
+    background-color: #242542 !important;
+    padding: 0;
+    border-left: 2px solid #2d74c4;
+    right: 0;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+th {
+    font-size: 14px;
+}
+
+.table_portfolio {
+    margin-top: 16px;
+}
+
+.thead_portfolio_wallet {
+    background-color: #242542;
+    color: #2d74c4;
+    width: 100%;
+}
+
+.thead_portfolio_wallet th {
+    width: 180px;
+    padding: 10px 0;
+}
+
+.thead_portfolio_transaction {
+    background-color: #242542;
+    color: #2d74c4;
+    width: 100%;
+}
+
+.thead_portfolio_transaction th {
+    padding: 10px 63.9px;
+}
+
+.thead_portfolio_yield {
+    background-color: #242542;
+    color: #2d74c4;
+    width: 100%;
+}
+
+.thead_portfolio_yield th {
+    padding: 10px 20px;
+}
+
+.tbody_wallet,
+.tbody_wallet tr,
+.tbody_wallet tr td {
+    padding: 7px 0;
+    vertical-align: middle;
+}
+
+.tbody_transaction tr,
+.tbody_transaction tr td {
+    padding: 7px 0;
+    vertical-align: middle;
+}
+
+.tbody_yield tr,
+.tbody_yield tr td {
+    padding: 7px 0;
+    vertical-align: middle;
+}
+
+.tbody_yield {
+    overflow: scroll;
+}
+
+.info_crox_wallet {
+    margin-top: 0px;
+}
+
+.tabbody {
+    margin: 10px 15px;
+    background-color: #302a42 !important;
+    padding: 0;
+    right: 0;
+    border-left: 2px solid #2d74c4;
+    box-shadow: none !important;
+    border-radius: 0;
+}
+
+.top_card {
+    margin-top: 10px;
+}
+
+.farm_type {
+    border: 1px solid #2d74c4;
+    border-radius: 10px;
+}
+
+.MobileTable {
+    display: none;
+}
+
+.HeaderTitle {
+    position: fixed;
+    top: 40px;
+    right: 500px;
+}
+
+.AccountButton {
+    margin-left: 400px !important;
+}
+
+.farming_farm {
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    color: greenyellow;
+    padding: 0 10px;
+}
+
+.finished_farm {
+    border: 1px solid red;
+    border-radius: 10px;
+    color: red;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .headerCard {
+        display: none !important;
+    }
+
+    .tabbody {
+        height: 91px;
+    }
+
+    .table {
+        margin-top: 10px;
+    }
+
+    .thead_portfolio_wallet th {
+        padding: 10px 34px;
+    }
+
+    .thead_portfolio_transaction th {
+        padding: 10px 49.9px;
+    }
+
+    .thead_portfolio_yield th {
+        padding: 10px 22.4px;
+    }
+
+    .HeaderTitle {
+        right: 350px;
+    }
+
+    .AccountButton {
+        margin-left: 120px !important;
+    }
+
+    .MobileTable {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .headerCard {
+        width: 510px;
+    }
+
+    .cardContent {
+        padding: 5px !important;
+    }
+
+    .cardContent div {
+        font-size: 14px;
+    }
+
+    .tabbody {
+        height: auto;
+    }
+
+    .tableLeftTab {
+        display: none;
+    }
+
+    .HeaderTitle {
+        top: 80px;
+        right: 335px;
+    }
+
+    .AccountButton {
+        margin-left: 200px !important;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .headerCard {
+        width: 350px;
+    }
+
+    .tabs_mobile {
+        width: 320px;
+        margin-top: 10px;
+    }
+
+    .tabcard_mobile {
+        display: none;
+    }
+
+    .headerCard_wallet {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .headerCard_yield {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .tbody_wallet_mobile {
+        justify-content: space-between;
+    }
+
+    .tbody_wallet_mobile tr td {
+        padding: 0px 20px;
+    }
+
+    .tbody_wallet_mobile_expand tr td {
+        padding: 0px 13px;
+    }
+
+    .tbody_wallet_transaction tr td {
+        padding: 0px 15px;
+    }
+
+    .tbody_wallet_transaction_expand tr td {
+        padding: 0px 30px;
+    }
+
+    .TabIcon {
+        font-size: 16px !important;
+        min-height: 50px !important;
+    }
+
+    .HeaderTitle {
+        top: 90px;
+        right: 250px;
+    }
+
+    .AccountButton {
+        margin-left: 160px !important;
+    }
+
+    .headerTitle_mobile {
+        right: 240px;
+        font-size: 16px;
+    }
+
+    .farming_farm {
+        padding: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: greenyellow;
+    }
+
+    .finished_farm {
+        padding: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: red;
+    }
+}

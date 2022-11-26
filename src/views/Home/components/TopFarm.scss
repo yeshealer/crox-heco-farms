@@ -1,0 +1,37 @@
+$price-tag__width-after: 10px;
+
+.twitter {
+    width: 0;
+    height: 0;
+    position: relative;
+
+    &__price-tag {
+        z-index: 5;
+        width: 120px;
+        display: flex;
+        align-items: center;
+        height: 32px;
+        border-radius: 4px 4px 4px 0;
+        background: #3b3c4e;
+        position: absolute;
+        top: -25px;
+        left: -27px;
+        justify-content: center;
+
+        &::after {
+            content: "";
+            position: absolute;
+            border-left: $price-tag__width-after solid transparent;
+            border-top: 5px solid #585963;
+            left: 0px;
+            top: 31px;
+        }
+
+        &-price {
+            margin-left: 5px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}

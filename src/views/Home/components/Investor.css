@@ -1,0 +1,20 @@
+.thead_invest {
+    color: #FE7F70;
+    border-radius: 5px;
+}
+.thead_invest th {
+    padding: 10px 0;
+}
+.tbody_invest tr td {
+    padding: 7px 0;
+    text-align: left;
+}
+
+.thead_invest tr th {
+    font-size: 15px;
+    color: white;
+}
+
+.havest_all_btn:disabled {
+    background-color: #3c3742 !important;
+}
